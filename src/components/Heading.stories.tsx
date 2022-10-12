@@ -1,8 +1,8 @@
-import { Text, TextProps } from './Text';
+import { Heading } from './Heading';
 
 export default {
-  title: 'Components/Text',
-  component: Text,
+  title: 'Components/Heading',
+  component: Heading,
   args: {
     children: 'Lorem ipsum',
     size: 'md',
@@ -53,7 +53,7 @@ export const Large = {
 export const CustomComponent = {
   args: {
     asChild: true,
-    children: <p>Text with p</p>,
+    children: <h1>Heading with h1</h1>,
   },
   argTypes: {
     children: {
